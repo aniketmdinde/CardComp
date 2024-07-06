@@ -1,0 +1,13 @@
+/* src/TestimonialList.css */
+.testimonial-list-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .testimonial-list {
+    display: flex;
+  }
+  
