@@ -1,0 +1,27 @@
+/* styles.css (or your preferred stylesheet) */
+.product-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px; /* Adjust as needed */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.product-card {
+  width: 300px; /* Adjust card width as needed */
+  flex: 0 0 auto;
+  transition: transform 1s linear;
+}
+
+.product-card:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
